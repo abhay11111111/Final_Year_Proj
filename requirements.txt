@@ -2,7 +2,7 @@ python == 3.9
 opencv-python 
 numpy == 1.21.4
 tensorflow 
-scikit-learn == 1.0.1
+scikit-learn
 imutils 
 flask 
 xgboost
