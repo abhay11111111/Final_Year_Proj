@@ -1,7 +1,7 @@
 opencv-python 
-numpy 
+numpy = 1.21.4
 tensorflow 
-scikit-learn 
+scikit-learn = 1.0.1
 imutils 
 flask 
 xgboost
