@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              accent: "#e63946",
+            },
+            fontFamily: {
+              Poppins: "Poppins",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="font-Poppins relative z-10 min-h-[100vh]">
+    <!-- Navbar -->
+    <div class="sticky top-0 z-30 flex px-4 lg:px-16 py-4 bg-black">
+      <div class="w-full sm:w-2/12 flex justify-start items-center">
+        <div>
+          <span class="text-white text-[1rem] sm:text-[1.5rem]"
+            >Health<span class="text-accent font-[800]">OnTap</span></span
+          >
+        </div>
+      </div>
+      <div class="w-10/12 hidden sm:flex justify-end items-center">
+        <div class="flex w-full">
+          <ul class="flex w-full justify-end gap-6">
+            <li>
+              <a
+                href="./covid"
+                class="no-underline text-white hover:text-accent transition-all uppercase tracking-wide font-bold"
+                >Covid</a
+              >
+            </li>
+            <li>
+              <a
+                href="./braintumor"
+                class="no-underline text-white hover:text-accent transition-all uppercase tracking-wide font-bold"
+                >Brain Tumour</a
+              >
+            </li>
+            <li>
+              <a
+                href="./breastcancer"
+                class="no-underline text-white hover:text-accent transition-all uppercase tracking-wide font-bold"
+                >Breast Cancer</a
+              >
+            </li>
+            <li>
+              <a
+                href="./alzheimer"
+                class="no-underline text-white hover:text-accent transition-all uppercase tracking-wide font-bold"
+                >Eye Disease</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pneumonia"
+                class="no-underline text-white hover:text-accent transition-all uppercase tracking-wide font-bold"
+                >Pneumonia</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div
+      class="relative flex z-10 flex-col justify-center items-center py-16 px-1 lg:px-16 bg-black gap-8"
+    >
+      <div>
+        <span class="text-white text-[3.5rem] sm:text-[5.5rem]"
+          >Health<span class="text-accent font-[800]">OnTap</span></span
+        >
+      </div>
+      <div class="max-w-[70%]">
+        <p class="text-white text-center tracking-wide leading-7">
+          Healthontap is an all in one medical solution app which brings 7
+          Disease Detections like Covid Detection, Brain Tumor Detection, Breast
+          Cancer Detection, Alzheimer Detection, Pneumonia Detection, and Heart
+          Disease Detection under one platform.
+        </p>
+      </div>
+      <div class="relative bg-black">
+        <button
+          class="text-white bg-accent rounded w-[200px] h-[40px] flex justify-center items-center hover:scale-110 transition-all hover:bg-[#ef233c]"
+        >
+          Know More
+        </button>
+      </div>
+    </div>
+
+    <!-- Diseases -->
+    <div
+      class="relative bg-white p-16 after:absolute after:top-[50%] after:w-full after:h-3/6 after:bg-accent after:left-0 after:-z-10 z-20 flex justify-center"
+    >
+      <div class="flex max-w-7xl flex-wrap justify-center gap-y-16 gap-x-8">
+        <div
+          class="w-[250px] bg-black rounded-xl p-8 flex flex-col justify-evenly"
+        >
+          <div class="flex justify-center">
+            <img
+              src="../static/icons/coronavirus (1).png"
+              alt=""
+              height="150px"
+              width="150px"
+              class="rounded"
+            />
+          </div>
+          <div class="text-white text-center pt-4 tracking-wide text-xl">
+            Corona Virus
+          </div>
+        </div>
+        <div
+          class="w-[250px] bg-black rounded-xl p-8 flex flex-col justify-evenly"
+        >
+          <div class="flex justify-center">
+            <a href="./braintumor"
+              ><img
+                src="../static/icons/brain (1).png"
+                alt=""
+                height="150px"
+                width="150px"
+                class="rounded"
+            /></a>
+          </div>
+          <div class="text-white text-center pt-4 tracking-wide text-xl">
+            Brain Tumor
+          </div>
+        </div>
+        <div
+          class="w-[250px] bg-black rounded-xl p-8 flex flex-col justify-evenly"
+        >
+          <div class="flex justify-center">
+            <img
+              src="../static/icons/eye.png"
+              alt=""
+              height="150px"
+              width="150px"
+              class="rounded"
+            />
+          </div>
+          <div class="text-white text-center pt-4 tracking-wide text-xl">
+            Eye Disease
+          </div>
+        </div>
+        <div
+          class="w-[250px] bg-black rounded-xl p-8 flex flex-col justify-evenly"
+        >
+          <div class="flex justify-center">
+            <img
+              src="../static/icons/pneumonia (1).png"
+              alt=""
+              height="150px"
+              width="150px"
+              class="rounded"
+            />
+          </div>
+          <div class="text-white text-center pt-4 tracking-wide text-xl">
+            Pneumonia
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why AI In medical field -->
+    <div class="relative bg-accent flex p-4 sm:p-16 flex-col">
+      <div
+        class="text-xl sm:text-3xl leading-normal font-light tracking-tight text-white"
+      >
+        Why AI in <br />
+        <span class="text-white font-extrabold text-3xl sm:text-6xl"
+          >Medical Field</span
+        >
+      </div>
+      <div class="text-white font-light tracking-wide text-justify">
+        <p>
+          The artificial intelligence (AI) technologies becoming ever present in
+          modern business and everyday life is also steadily being applied to
+          healthcare. The use of artificial intelligence in healthcare has the
+          potential to assist healthcare providers in many aspects of patient
+          care and administrative processes. Most AI and healthcare technologies
+          have strong relevance to the healthcare field, but the tactics they
+          support can vary significantly. And while some articles on artificial
+          intelligence in healthcare suggest that the use of artificial
+          intelligence in healthcare can perform just as well or better than
+          humans at certain procedures, such as diagnosing disease, it will be a
+          significant number of years before AI in healthcare replaces humans
+          for a broad range of medical tasks.
+        </p>
+      </div>
+    </div>
+    <div class="relative bg-white flex p-4 sm:p-16 flex-col">
+      <div
+        class="sm:text-3xl leading-normal font-light tracking-tight text-right flex-col"
+      >
+        What is<br />
+        <span class="text-accent font-extrabold text-3xl sm:text-6xl"
+          >Machine Learning</span
+        >
+      </div>
+      <div class="text-justify">
+        <p>
+          Machine learning is one of the most common forms of artificial
+          intelligence in healthcare. It is a broad technique at the core of
+          many approaches to AI and healthcare technology and there are many
+          versions of it. Using artificial intelligence in healthcare, the most
+          widespread utilization of traditional machine learning is precision
+          medicine. Being able to predict what treatment procedures are likely
+          to be successful with patients based on their make-up and the
+          treatment framework is a huge leap forward for many healthcare
+          organizations. The majority of AI in healthcare that uses machine
+          learning and precision medicine applications require data for
+          training, for which the end result is known. This is known as
+          supervised learning.
+        </p>
+      </div>
+    </div>
+    <div class="relative bg-accent flex p-4 sm:p-16 flex-col">
+      <div
+        class="sm:text-3xl leading-normalfont-light tracking-tight text-white"
+      >
+        What is <br />
+        <span class="text-white font-extrabold text-3xl sm:text-6xl"
+          >Natural Language Processing</span
+        >
+      </div>
+      <div class="text-white font-light tracking-wide text-justify">
+        <p>
+          Making sense of human language has been a goal of artificial
+          intelligence and healthcare technology for over 50 years. Most NLP
+          systems include forms of speech recognition or text analysis and then
+          translation. A common use of artificial intelligence in healthcare
+          involves NLP applications that can understand and classify clinical
+          documentation. NLP systems can analyze unstructured clinical notes on
+          patients, giving incredible insight into understanding quality,
+          improving methods, and better results for patients.
+        </p>
+      </div>
+    </div>
+    <!-- Machine Learning -->
+  </body>
+</html>
