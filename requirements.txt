@@ -6,7 +6,7 @@ xgboost
 Flask
 MarkupSafe
 Werkzeug
-numpy
+numpy >= 1.22
 scipy
 scikit-learn
 protobuf
