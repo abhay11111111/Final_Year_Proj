@@ -3,12 +3,12 @@ opencv-python
 tensorflow 
 imutils 
 xgboost
-Flask==1.1.1
-MarkupSafe==1.1.1
-Werkzeug==0.15.5
-numpy>=1.9.2
+Flask
+MarkupSafe
+Werkzeug
+numpy
 scipy>=0.15.1
-scikit-learn>=0.18
-protobuf >= 3.9.2
-Jinja2==3.0.3
-pandas>=0.19
+scikit-learn
+protobuf
+Jinja2
+pandas
