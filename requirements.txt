@@ -7,4 +7,4 @@ scikit_learn==1.2.0
 tensorflow==2.11.0
 Werkzeug==2.2.2
 tensorflow-cpu==2.11.0
-protobuf~=3.19.0
+protobuf>=3.19.5,<4.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
