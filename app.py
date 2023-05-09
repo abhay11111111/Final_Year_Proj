@@ -15,13 +15,13 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 
 
 # Loading Models
-covid_model = load_model('models/covid.h5')
-braintumor_model = load_model('models/braintumor.h5')
-Eye_model= load_model('models/model.h5')
-diabetes_model = pickle.load(open('models/diabetes.sav', 'rb'))
-heart_model = pickle.load(open('models/heart_disease.pickle.dat', "rb"))
-pneumonia_model = load_model('models/pneumonia_model.h5')
-breastcancer_model = joblib.load('models/cancer_model.pkl')
+covid_model = load_model('covid.h5')
+braintumor_model = load_model('braintumor.h5')
+Eye_model= load_model('model.h5')
+diabetes_model = pickle.load(open('diabetes.sav', 'rb'))
+heart_model = pickle.load(open('heart_disease.pickle.dat', "rb"))
+pneumonia_model = load_model('pneumonia_model.h5')
+breastcancer_model = joblib.load('cancer_model.pkl')
 
 # Configuring Flask
 UPLOAD_FOLDER = 'static/uploads'
