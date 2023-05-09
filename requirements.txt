@@ -6,5 +6,4 @@ opencv_python==4.6.0.66
 scikit_learn==1.2.0
 tensorflow==2.11.0
 Werkzeug==2.2.2
-tensorflow-intel==2.11.0
 tensorflow_protobuf==3.19.6
