@@ -13,4 +13,4 @@ RUN pip install gunicorn
 RUN pip install -r requirements.txt
 ENV PIP_ROOT_USER_ACTION=ignore
 # Define the entry point for the container
-CMD ["flask", "run", "--host=0.0.0.0"]
+
