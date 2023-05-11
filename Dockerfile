@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . /app
 
 RUN pip install --upgrade pip
+RUN pip install gunicorn
 # Install the application dependencies
 RUN pip install -r requirements.txt
 ENV PIP_ROOT_USER_ACTION=ignore
