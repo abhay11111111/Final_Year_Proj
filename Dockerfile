@@ -2,7 +2,7 @@ FROM python:3.8
 
 RUN pip install --upgrade pip
 
-RUN adduser -D myuser
+RUN useradd -ms /bin/bash worker
 USER myuser
 WORKDIR /home/myuser
 
