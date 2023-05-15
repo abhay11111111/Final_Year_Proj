@@ -27,7 +27,7 @@ Markdown==3.4.1
 MarkupSafe==2.1.1
 numpy==1.24.0
 oauthlib==3.2.2
-opencv-python==4.6.0.66
+opencv-python-headless==4.6.0.66
 opt-einsum==3.3.0
 packaging==22.0
 pip-tools==6.13.0
